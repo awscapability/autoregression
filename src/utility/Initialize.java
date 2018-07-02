@@ -149,7 +149,8 @@ public class Initialize {
 				//Changed the path
 					//exePath = "/usr/local/bin/chromedriver";
 				//exePath = "/usr/local/bin/chromedriver";
-				//}		
+				//}	
+				//
 				System.setProperty("webdriver.chrome.driver", exePath);
 				ChromeOptions options = new ChromeOptions();
 				Map<String, Object> prefs = new HashMap<String, Object>();
